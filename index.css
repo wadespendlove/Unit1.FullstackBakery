@@ -1,0 +1,73 @@
+.brand {
+  font-family: "Sofia", sans-serif;
+  border-right: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  font-size: 30px;
+  flex-shrink: 6;
+  background-color: black;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  gap: 1em;
+  border: 1em;
+  border-color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  flex-shrink: 2;
+  flex-wrap: wrap;
+  background-color: blue;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  border: 1em;
+  border-color: black;
+  gap: 1ch;
+  font-size: 2em;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+li {
+  border: 10em;
+  border-color: black;
+  background-color: black;
+  width: 4em;
+  margin-left: 0.1em;
+  padding: 0em;
+}
+
+.testimonial {
+  background-color: gray;
+}
+
+body {
+  background-color: darkgrey;
+}
+
+main {
+  display: flex;
+  align-items: stretch;
+}
+
+article > p {
+  padding-left: 10px;
+}
+
+footer {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
